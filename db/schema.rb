@@ -10,9 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_08_13_180635) do
+ActiveRecord::Schema.define(version: 2018_08_13_183336) do
 
-  create_table "PartyGuests", force: :cascade do |t|
+  create_table "Widgets", force: :cascade do |t|
     t.string "first_name"
     t.string "last_name"
     t.string "dietary_restrictions"
@@ -37,7 +37,7 @@ ActiveRecord::Schema.define(version: 2018_08_13_180635) do
     t.string "name"
     t.string "manufacturer"
     t.decimal "cost"
-    t.integer "quantity"
+    t.decimal "quantity"
   end
 
 end
